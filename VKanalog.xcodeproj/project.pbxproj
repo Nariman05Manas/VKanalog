@@ -8,22 +8,101 @@
 
 /* Begin PBXBuildFile section */
 		4B9DCE73298ADE8C002BEABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCE72298ADE8C002BEABB /* AppDelegate.swift */; };
-		4B9DCE75298ADE8C002BEABB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCE74298ADE8C002BEABB /* SceneDelegate.swift */; };
-		4B9DCE77298ADE8C002BEABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCE76298ADE8C002BEABB /* ViewController.swift */; };
-		4B9DCE7A298ADE8C002BEABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DCE78298ADE8C002BEABB /* Main.storyboard */; };
+		4B9DCE77298ADE8C002BEABB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCE76298ADE8C002BEABB /* SceneDelegate.swift */; };
 		4B9DCE7C298ADE8D002BEABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DCE7B298ADE8D002BEABB /* Assets.xcassets */; };
 		4B9DCE7F298ADE8D002BEABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DCE7D298ADE8D002BEABB /* LaunchScreen.storyboard */; };
+		4B9DCE90298B046E002BEABB /* VKSdkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9DCE8F298B046E002BEABB /* VKSdkFramework.framework */; };
+		4B9DCE91298B046E002BEABB /* VKSdkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9DCE8F298B046E002BEABB /* VKSdkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B9DCE94298B070A002BEABB /* VCConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCE93298B070A002BEABB /* VCConstants.swift */; };
+		4B9DCE96298B0723002BEABB /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCE95298B0723002BEABB /* WebImageView.swift */; };
+		4B9DCE98298B074A002BEABB /* VKDateFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCE97298B074A002BEABB /* VKDateFormater.swift */; };
+		4B9DCE9A298B0761002BEABB /* String + Height.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCE99298B0761002BEABB /* String + Height.swift */; };
+		4B9DCE9C298B077B002BEABB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCE9B298B077B002BEABB /* Extensions.swift */; };
+		4B9DCE9E298B07A6002BEABB /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCE9D298B07A6002BEABB /* CustomTabBar.swift */; };
+		4B9DCEA0298B07C4002BEABB /* CellsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCE9F298B07C3002BEABB /* CellsProtocols.swift */; };
+		4B9DCEA2298B07D9002BEABB /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEA1298B07D9002BEABB /* NewsFeedCell.swift */; };
+		4B9DCEA4298B07EC002BEABB /* WallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEA3298B07EC002BEABB /* WallCell.swift */; };
+		4B9DCEA6298B0803002BEABB /* CalculateCellHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEA5298B0803002BEABB /* CalculateCellHeight.swift */; };
+		4B9DCEA8298B0822002BEABB /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEA7298B0822002BEABB /* UserProfileViewController.swift */; };
+		4B9DCEAA298B0834002BEABB /* UserPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEA9298B0834002BEABB /* UserPhotoViewController.swift */; };
+		4B9DCEAC298B0846002BEABB /* UserProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEAB298B0846002BEABB /* UserProfileInteractor.swift */; };
+		4B9DCEAE298B0857002BEABB /* UserProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEAD298B0857002BEABB /* UserProfilePresenter.swift */; };
+		4B9DCEB0298B0870002BEABB /* UserProfileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEAF298B0870002BEABB /* UserProfileModels.swift */; };
+		4B9DCEB2298B0885002BEABB /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEB1298B0885002BEABB /* ProfileHeaderView.swift */; };
+		4B9DCEB4298B08AF002BEABB /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEB3298B08AF002BEABB /* NewsFeedViewController.swift */; };
+		4B9DCEB6298B08C4002BEABB /* FavouriteNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEB5298B08C4002BEABB /* FavouriteNewsViewController.swift */; };
+		4B9DCEB8298B08DA002BEABB /* NewsFeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEB7298B08DA002BEABB /* NewsFeedInteractor.swift */; };
+		4B9DCEBA298B08EB002BEABB /* NewsFeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEB9298B08EB002BEABB /* NewsFeedPresenter.swift */; };
+		4B9DCEBC298B08FD002BEABB /* NewsFeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEBB298B08FD002BEABB /* NewsFeedModels.swift */; };
+		4B9DCEBE298B091A002BEABB /* VKAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEBD298B091A002BEABB /* VKAuthService.swift */; };
+		4B9DCEC0298B092E002BEABB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEBF298B092E002BEABB /* NetworkService.swift */; };
+		4B9DCEC2298B0951002BEABB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEC1298B0951002BEABB /* API.swift */; };
+		4B9DCEC5298B099F002BEABB /* RealmSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEC4298B099F002BEABB /* RealmSwift.swift */; };
+		4B9DCEC7298B09B2002BEABB /* FeedPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEC6298B09B2002BEABB /* FeedPostModel.swift */; };
+		4B9DCEC9298B09C3002BEABB /* FeedPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCEC8298B09C3002BEABB /* FeedPost.swift */; };
+		4B9DCECB298B09D4002BEABB /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCECA298B09D4002BEABB /* UserInfo.swift */; };
+		4B9DCECD298B09E6002BEABB /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCECC298B09E6002BEABB /* UserInfoModel.swift */; };
+		4B9DCECF298B09F8002BEABB /* WallPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCECE298B09F8002BEABB /* WallPostModel.swift */; };
+		4B9DCED1298B0A0A002BEABB /* WallPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCED0298B0A0A002BEABB /* WallPost.swift */; };
+		4B9DCED3298B0A2B002BEABB /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DCED2298B0A2B002BEABB /* AuthViewController.swift */; };
+		4B9DCED6298B0DD0002BEABB /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 4B9DCED5298B0DD0002BEABB /* TinyConstraints */; };
+		4B9DCED9298B0ECE002BEABB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4B9DCED8298B0ECE002BEABB /* Realm */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B9DCE92298B046E002BEABB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4B9DCE91298B046E002BEABB /* VKSdkFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4B9DCE6F298ADE8C002BEABB /* VKanalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKanalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9DCE72298ADE8C002BEABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B9DCE74298ADE8C002BEABB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B9DCE76298ADE8C002BEABB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B9DCE79298ADE8C002BEABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B9DCE76298ADE8C002BEABB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4B9DCE7B298ADE8D002BEABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B9DCE7E298ADE8D002BEABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B9DCE80298ADE8D002BEABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9DCE8F298B046E002BEABB /* VKSdkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VKSdkFramework.framework; path = Carthage/Build/iOS/VKSdkFramework.framework; sourceTree = "<group>"; };
+		4B9DCE93298B070A002BEABB /* VCConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCConstants.swift; sourceTree = "<group>"; };
+		4B9DCE95298B0723002BEABB /* WebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
+		4B9DCE97298B074A002BEABB /* VKDateFormater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKDateFormater.swift; sourceTree = "<group>"; };
+		4B9DCE99298B0761002BEABB /* String + Height.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Height.swift"; sourceTree = "<group>"; };
+		4B9DCE9B298B077B002BEABB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4B9DCE9D298B07A6002BEABB /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		4B9DCE9F298B07C3002BEABB /* CellsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsProtocols.swift; sourceTree = "<group>"; };
+		4B9DCEA1298B07D9002BEABB /* NewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
+		4B9DCEA3298B07EC002BEABB /* WallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallCell.swift; sourceTree = "<group>"; };
+		4B9DCEA5298B0803002BEABB /* CalculateCellHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateCellHeight.swift; sourceTree = "<group>"; };
+		4B9DCEA7298B0822002BEABB /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		4B9DCEA9298B0834002BEABB /* UserPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoViewController.swift; sourceTree = "<group>"; };
+		4B9DCEAB298B0846002BEABB /* UserProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileInteractor.swift; sourceTree = "<group>"; };
+		4B9DCEAD298B0857002BEABB /* UserProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilePresenter.swift; sourceTree = "<group>"; };
+		4B9DCEAF298B0870002BEABB /* UserProfileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModels.swift; sourceTree = "<group>"; };
+		4B9DCEB1298B0885002BEABB /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		4B9DCEB3298B08AF002BEABB /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		4B9DCEB5298B08C4002BEABB /* FavouriteNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteNewsViewController.swift; sourceTree = "<group>"; };
+		4B9DCEB7298B08DA002BEABB /* NewsFeedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedInteractor.swift; sourceTree = "<group>"; };
+		4B9DCEB9298B08EB002BEABB /* NewsFeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedPresenter.swift; sourceTree = "<group>"; };
+		4B9DCEBB298B08FD002BEABB /* NewsFeedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedModels.swift; sourceTree = "<group>"; };
+		4B9DCEBD298B091A002BEABB /* VKAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKAuthService.swift; sourceTree = "<group>"; };
+		4B9DCEBF298B092E002BEABB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4B9DCEC1298B0951002BEABB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4B9DCEC4298B099F002BEABB /* RealmSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSwift.swift; sourceTree = "<group>"; };
+		4B9DCEC6298B09B2002BEABB /* FeedPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostModel.swift; sourceTree = "<group>"; };
+		4B9DCEC8298B09C3002BEABB /* FeedPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPost.swift; sourceTree = "<group>"; };
+		4B9DCECA298B09D4002BEABB /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		4B9DCECC298B09E6002BEABB /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		4B9DCECE298B09F8002BEABB /* WallPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallPostModel.swift; sourceTree = "<group>"; };
+		4B9DCED0298B0A0A002BEABB /* WallPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallPost.swift; sourceTree = "<group>"; };
+		4B9DCED2298B0A2B002BEABB /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +110,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9DCED9298B0ECE002BEABB /* Realm in Frameworks */,
+				4B9DCE90298B046E002BEABB /* VKSdkFramework.framework in Frameworks */,
+				4B9DCED6298B0DD0002BEABB /* TinyConstraints in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +124,7 @@
 			children = (
 				4B9DCE71298ADE8C002BEABB /* VKanalog */,
 				4B9DCE70298ADE8C002BEABB /* Products */,
+				4B9DCE8E298B046D002BEABB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +139,117 @@
 		4B9DCE71298ADE8C002BEABB /* VKanalog */ = {
 			isa = PBXGroup;
 			children = (
+				4B9DCE8C298AF367002BEABB /* Helpers */,
+				4B9DCE8B298AF342002BEABB /* TabBarCustom */,
+				4B9DCE8A298AF327002BEABB /* Cell */,
+				4B9DCE89298AF310002BEABB /* UserProfile */,
+				4B9DCE88298AF2E2002BEABB /* NewsFeed */,
+				4B9DCE87298AF2CF002BEABB /* Service */,
+				4B9DCE86298AF2B9002BEABB /* AuthVC */,
 				4B9DCE72298ADE8C002BEABB /* AppDelegate.swift */,
-				4B9DCE74298ADE8C002BEABB /* SceneDelegate.swift */,
-				4B9DCE76298ADE8C002BEABB /* ViewController.swift */,
-				4B9DCE78298ADE8C002BEABB /* Main.storyboard */,
+				4B9DCE76298ADE8C002BEABB /* SceneDelegate.swift */,
 				4B9DCE7B298ADE8D002BEABB /* Assets.xcassets */,
 				4B9DCE7D298ADE8D002BEABB /* LaunchScreen.storyboard */,
 				4B9DCE80298ADE8D002BEABB /* Info.plist */,
 			);
 			path = VKanalog;
+			sourceTree = "<group>";
+		};
+		4B9DCE86298AF2B9002BEABB /* AuthVC */ = {
+			isa = PBXGroup;
+			children = (
+				4B9DCED2298B0A2B002BEABB /* AuthViewController.swift */,
+			);
+			path = AuthVC;
+			sourceTree = "<group>";
+		};
+		4B9DCE87298AF2CF002BEABB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4B9DCEC3298B0972002BEABB /* LocalStorage */,
+				4B9DCEBD298B091A002BEABB /* VKAuthService.swift */,
+				4B9DCEBF298B092E002BEABB /* NetworkService.swift */,
+				4B9DCEC1298B0951002BEABB /* API.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4B9DCE88298AF2E2002BEABB /* NewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				4B9DCEB3298B08AF002BEABB /* NewsFeedViewController.swift */,
+				4B9DCEB5298B08C4002BEABB /* FavouriteNewsViewController.swift */,
+				4B9DCEB7298B08DA002BEABB /* NewsFeedInteractor.swift */,
+				4B9DCEB9298B08EB002BEABB /* NewsFeedPresenter.swift */,
+				4B9DCEBB298B08FD002BEABB /* NewsFeedModels.swift */,
+			);
+			path = NewsFeed;
+			sourceTree = "<group>";
+		};
+		4B9DCE89298AF310002BEABB /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				4B9DCEA7298B0822002BEABB /* UserProfileViewController.swift */,
+				4B9DCEA9298B0834002BEABB /* UserPhotoViewController.swift */,
+				4B9DCEAB298B0846002BEABB /* UserProfileInteractor.swift */,
+				4B9DCEAD298B0857002BEABB /* UserProfilePresenter.swift */,
+				4B9DCEAF298B0870002BEABB /* UserProfileModels.swift */,
+				4B9DCEB1298B0885002BEABB /* ProfileHeaderView.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		4B9DCE8A298AF327002BEABB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4B9DCE9F298B07C3002BEABB /* CellsProtocols.swift */,
+				4B9DCEA1298B07D9002BEABB /* NewsFeedCell.swift */,
+				4B9DCEA3298B07EC002BEABB /* WallCell.swift */,
+				4B9DCEA5298B0803002BEABB /* CalculateCellHeight.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4B9DCE8B298AF342002BEABB /* TabBarCustom */ = {
+			isa = PBXGroup;
+			children = (
+				4B9DCE9D298B07A6002BEABB /* CustomTabBar.swift */,
+			);
+			path = TabBarCustom;
+			sourceTree = "<group>";
+		};
+		4B9DCE8C298AF367002BEABB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B9DCE93298B070A002BEABB /* VCConstants.swift */,
+				4B9DCE95298B0723002BEABB /* WebImageView.swift */,
+				4B9DCE97298B074A002BEABB /* VKDateFormater.swift */,
+				4B9DCE99298B0761002BEABB /* String + Height.swift */,
+				4B9DCE9B298B077B002BEABB /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4B9DCE8E298B046D002BEABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B9DCE8F298B046E002BEABB /* VKSdkFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B9DCEC3298B0972002BEABB /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				4B9DCEC4298B099F002BEABB /* RealmSwift.swift */,
+				4B9DCEC6298B09B2002BEABB /* FeedPostModel.swift */,
+				4B9DCEC8298B09C3002BEABB /* FeedPost.swift */,
+				4B9DCECA298B09D4002BEABB /* UserInfo.swift */,
+				4B9DCECC298B09E6002BEABB /* UserInfoModel.swift */,
+				4B9DCECE298B09F8002BEABB /* WallPostModel.swift */,
+				4B9DCED0298B0A0A002BEABB /* WallPost.swift */,
+			);
+			path = LocalStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +262,18 @@
 				4B9DCE6B298ADE8C002BEABB /* Sources */,
 				4B9DCE6C298ADE8C002BEABB /* Frameworks */,
 				4B9DCE6D298ADE8C002BEABB /* Resources */,
+				4B9DCE8D298AFCD9002BEABB /* ShellScript */,
+				4B9DCE92298B046E002BEABB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = VKanalog;
+			packageProductDependencies = (
+				4B9DCED5298B0DD0002BEABB /* TinyConstraints */,
+				4B9DCED8298B0ECE002BEABB /* Realm */,
+			);
 			productName = VKanalog;
 			productReference = 4B9DCE6F298ADE8C002BEABB /* VKanalog.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +302,10 @@
 				Base,
 			);
 			mainGroup = 4B9DCE66298ADE8C002BEABB;
+			packageReferences = (
+				4B9DCED4298B0DD0002BEABB /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+				4B9DCED7298B0ECE002BEABB /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 4B9DCE70298ADE8C002BEABB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +322,77 @@
 			files = (
 				4B9DCE7F298ADE8D002BEABB /* LaunchScreen.storyboard in Resources */,
 				4B9DCE7C298ADE8D002BEABB /* Assets.xcassets in Resources */,
-				4B9DCE7A298ADE8C002BEABB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B9DCE8D298AFCD9002BEABB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/VKSdkFramework.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B9DCE6B298ADE8C002BEABB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B9DCE77298ADE8C002BEABB /* ViewController.swift in Sources */,
+				4B9DCEA2298B07D9002BEABB /* NewsFeedCell.swift in Sources */,
+				4B9DCE98298B074A002BEABB /* VKDateFormater.swift in Sources */,
+				4B9DCEA4298B07EC002BEABB /* WallCell.swift in Sources */,
+				4B9DCEB6298B08C4002BEABB /* FavouriteNewsViewController.swift in Sources */,
+				4B9DCEB4298B08AF002BEABB /* NewsFeedViewController.swift in Sources */,
+				4B9DCEC7298B09B2002BEABB /* FeedPostModel.swift in Sources */,
+				4B9DCEC0298B092E002BEABB /* NetworkService.swift in Sources */,
+				4B9DCE9A298B0761002BEABB /* String + Height.swift in Sources */,
+				4B9DCEAA298B0834002BEABB /* UserPhotoViewController.swift in Sources */,
+				4B9DCEC2298B0951002BEABB /* API.swift in Sources */,
+				4B9DCE77298ADE8C002BEABB /* SceneDelegate.swift in Sources */,
+				4B9DCE96298B0723002BEABB /* WebImageView.swift in Sources */,
+				4B9DCEBA298B08EB002BEABB /* NewsFeedPresenter.swift in Sources */,
+				4B9DCEBE298B091A002BEABB /* VKAuthService.swift in Sources */,
+				4B9DCED1298B0A0A002BEABB /* WallPost.swift in Sources */,
+				4B9DCEBC298B08FD002BEABB /* NewsFeedModels.swift in Sources */,
+				4B9DCEAC298B0846002BEABB /* UserProfileInteractor.swift in Sources */,
+				4B9DCE9E298B07A6002BEABB /* CustomTabBar.swift in Sources */,
+				4B9DCE94298B070A002BEABB /* VCConstants.swift in Sources */,
+				4B9DCEC5298B099F002BEABB /* RealmSwift.swift in Sources */,
+				4B9DCEB0298B0870002BEABB /* UserProfileModels.swift in Sources */,
+				4B9DCEA8298B0822002BEABB /* UserProfileViewController.swift in Sources */,
+				4B9DCECF298B09F8002BEABB /* WallPostModel.swift in Sources */,
+				4B9DCECD298B09E6002BEABB /* UserInfoModel.swift in Sources */,
 				4B9DCE73298ADE8C002BEABB /* AppDelegate.swift in Sources */,
-				4B9DCE75298ADE8C002BEABB /* SceneDelegate.swift in Sources */,
+				4B9DCEB2298B0885002BEABB /* ProfileHeaderView.swift in Sources */,
+				4B9DCED3298B0A2B002BEABB /* AuthViewController.swift in Sources */,
+				4B9DCE9C298B077B002BEABB /* Extensions.swift in Sources */,
+				4B9DCEAE298B0857002BEABB /* UserProfilePresenter.swift in Sources */,
+				4B9DCEA0298B07C4002BEABB /* CellsProtocols.swift in Sources */,
+				4B9DCEB8298B08DA002BEABB /* NewsFeedInteractor.swift in Sources */,
+				4B9DCEA6298B0803002BEABB /* CalculateCellHeight.swift in Sources */,
+				4B9DCECB298B09D4002BEABB /* UserInfo.swift in Sources */,
+				4B9DCEC9298B09C3002BEABB /* FeedPost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B9DCE78298ADE8C002BEABB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B9DCE79298ADE8C002BEABB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B9DCE7D298ADE8D002BEABB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -220,6 +458,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -273,6 +512,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -288,13 +528,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YYBC2YP9HG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VKanalog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +546,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-18Nariman.VKanalog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,13 +563,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YYBC2YP9HG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VKanalog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +581,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-18Nariman.VKanalog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,6 +612,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B9DCED4298B0DD0002BEABB /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		4B9DCED7298B0ECE002BEABB /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B9DCED5298B0DD0002BEABB /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B9DCED4298B0DD0002BEABB /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+		4B9DCED8298B0ECE002BEABB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B9DCED7298B0ECE002BEABB /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4B9DCE67298ADE8C002BEABB /* Project object */;
 }

@@ -1,0 +1,55 @@
+{
+  "Mac" : [
+    {
+      "name" : "Realm",
+      "hash" : "b1813153c248940039953a561e46935062dc2858cbee6f77e0c9b8e5746bab14",
+      "linking" : "dynamic"
+    },
+    {
+      "hash" : "52f9cb2970984f1b65c1009aa975beaef67610633784ebd0d942e501240139d7",
+      "name" : "RealmSwift",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "Realm",
+      "hash" : "998792ee4ff1b6cc25cf3cb27a32dbeaed499f0bbaff48e9b0e539f3c480eeab",
+      "linking" : "dynamic"
+    },
+    {
+      "hash" : "0588d77d77cf575aee9eb40affbe078f4a71f7ec11a3af3a8b6d7f894f063e53",
+      "name" : "RealmSwift",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "Realm",
+      "hash" : "80c854220ff18b1466b2dafbb1f40db0879e1b0d9d3b39d0fd267aefb870e50b",
+      "linking" : "dynamic"
+    },
+    {
+      "hash" : "75c5bc6389bdd44d0344e517bc52efa5763014a3024f7b640d39eec5adb55f47",
+      "name" : "RealmSwift",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+    }
+  ],
+  "commitish" : "v10.34.1",
+  "iOS" : [
+    {
+      "name" : "Realm",
+      "hash" : "1835dcbc34fb4975785cf1e729a42179be939b81c17de7890ce6b535fccde69f",
+      "linking" : "dynamic"
+    },
+    {
+      "hash" : "5c6927c231161e63e1554d64b49af66e4b19510cdcc1b2abd8cfc4b1372ba55f",
+      "name" : "RealmSwift",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+    }
+  ]
+}
